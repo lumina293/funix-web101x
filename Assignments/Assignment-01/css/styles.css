@@ -34,8 +34,43 @@ body {
   padding: 40px;
 }
 
+.section {
+  margin: 40px;
+  position: relative;
+}
+
 .section-title {
   text-transform: capitalize;
   font-weight: bold;
   border-bottom: 1px solid black;
+}
+
+.container-info {
+  display: inline-block;
+}
+
+.container-profile-picture {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.profile-picture {
+  width: 113px;
+  height: 113px;
+}
+
+dt {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+dd {
+  display: inline-block;
+  margin: 0;
+}
+
+dd.break {
+  display: block;
 }
