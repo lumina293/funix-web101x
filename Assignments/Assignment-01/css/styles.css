@@ -74,3 +74,16 @@ dd {
 dd.break {
   display: block;
 }
+
+.experience-container {
+  display: flex;
+  border-bottom: 1px solid #cccccc;
+}
+
+.experience-period {
+  flex-basis: 25%;
+}
+
+.experience-content {
+  flex-basis: 75%;
+}
