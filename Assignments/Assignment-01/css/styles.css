@@ -94,6 +94,5 @@ dd.break {
 
 ul {
   list-style-type: inherit;
-  list-style-position: inside;
-  padding-left: 0;
+  padding-left: 1.5em;
 }
