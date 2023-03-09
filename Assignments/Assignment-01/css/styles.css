@@ -74,3 +74,46 @@ dd {
 dd.break {
   display: block;
 }
+
+/*.time {
+  display: inline;
+  vertical-align: top;
+}
+.achive {
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: top;
+}*/
+.activity {
+  list-style-type: disc;
+  display: inline-block;
+
+. .date {
+    display: inline;
+    width: 25%;
+    font-weight: bold;
+    vertical-align: top;
+   
+  }
+
+  .event {
+    display: inline-block;
+    width: 75%;
+    list-style-type: none;
+    vertical-align: top;
+    
+  }
+
+  .title {
+    font-weight: bold;
+  }
+
+  .interest {
+    list-style-type: circle;
+  }
+  .contact {
+    list-style: number;
+  }
+  .title {
+    text-transform: capitalize;
+  }
