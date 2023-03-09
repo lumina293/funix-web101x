@@ -75,15 +75,19 @@ dd.break {
   display: block;
 }
 
-.experience-container {
+.container-flex {
   display: flex;
   border-bottom: 1px solid #cccccc;
 }
 
-.experience-period {
+.container-flex-left {
   flex-basis: 25%;
 }
 
-.experience-content {
+#skill .container-flex-left {
+  font-weight: bold;
+}
+
+.container-flex-right {
   flex-basis: 75%;
 }
