@@ -91,3 +91,9 @@ dd.break {
 .container-flex-right {
   flex-basis: 75%;
 }
+
+ul {
+  list-style-type: inherit;
+  list-style-position: inside;
+  padding-left: 0;
+}
