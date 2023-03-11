@@ -77,7 +77,8 @@ dd.break {
 
 .container-flex {
   display: flex;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #f0f0f0;
+  margin-left: 8px;
 }
 
 .container-flex-left {
@@ -90,6 +91,40 @@ dd.break {
 
 .container-flex-right {
   flex-basis: 75%;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: #cccccc;
+  top: 0;
+  bottom: 0;
+  left: 0%;
+  height: 90%;
+  margin-left: 0px;
+}
+
+.timeline-entry-container {
+  position: relative;
+}
+
+/* The circles on the timeline */
+.timeline-entry-container::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border: 2px solid black;
+  background-color: black;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  left: -10px;
 }
 
 ul {
