@@ -1,17 +1,20 @@
 .flex-container {
   display: flex;
-  background-color: yellow;
-  justify-content: space-between;
+  background-color: rgb(255, 0, 144);
+  height: 400px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  overflow: scroll;
 }
 .flex-container > div {
-  background-color: rgb(229, 183, 198);
-  margin: 20px;
-  padding: 50px;
-  font-size: 50px;
-  width: auto;
+  background-color: rgb(183, 221, 229);
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  width: 200px;
   text-align: center;
-  line-height: auto;
+  line-height: 75px;
 }
 p {
-  font-size: 50px;
+  font-size: 70px;
 }
