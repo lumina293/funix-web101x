@@ -1,11 +1,17 @@
 .flex-container {
   display: flex;
-  background-color: DodgerBlue;
-  flex-direction: row-reverse;
+  background-color: hotpink;
+  flex-wrap: nowrap;
 }
 .flex-container > div {
-  background-color: #f1f1f1;
+  background-color: lavenderblush;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+  width: auto;
+  text-align: center;
+  line-height: auto;
+}
+p {
+  font-size: 50px;
 }
