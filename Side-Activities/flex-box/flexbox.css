@@ -2,9 +2,8 @@
   display: flex;
   background-color: rgb(255, 0, 144);
   height: 400px;
-  flex-wrap: wrap;
-  align-content: space-around;
-  overflow: scroll;
+  justify-content: center;
+  align-items: center;
 }
 .flex-container > div {
   background-color: rgb(183, 221, 229);
