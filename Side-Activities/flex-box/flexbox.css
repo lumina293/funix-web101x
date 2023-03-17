@@ -3,7 +3,7 @@
   background-color: rgb(255, 0, 144);
   height: 400px;
   flex-wrap: wrap;
-  align-content: space-between;
+  align-content: space-around;
   overflow: scroll;
 }
 .flex-container > div {
