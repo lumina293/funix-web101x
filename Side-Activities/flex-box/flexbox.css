@@ -1,7 +1,7 @@
 .flex-container {
   display: flex;
   background-color: yellow;
-  flex-wrap: wrap-reverse;
+  justify-content: space-between;
 }
 .flex-container > div {
   background-color: rgb(229, 183, 198);
@@ -9,7 +9,7 @@
   padding: 50px;
   font-size: 50px;
   width: auto;
-  text-align: cen;
+  text-align: center;
   line-height: auto;
 }
 p {
