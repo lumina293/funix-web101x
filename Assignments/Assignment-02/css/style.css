@@ -147,3 +147,14 @@ section > .container {
   align-items: center;
   justify-content: center;
 }
+.container-languages {
+  display: flex;
+}
+
+.language-item span {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 50px;
+}
