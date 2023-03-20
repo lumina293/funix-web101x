@@ -7,6 +7,28 @@
   background: #f7f7f7;
 }
 
+#container-target-info {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#target {
+  flex: 1;
+  text-align: justify;
+}
+
+#personal-info {
+  flex: 1;
+}
+
+.mt-40-info li {
+  list-style-type: none;
+}
+
+i {
+  color: blue;
+}
+
 #nav {
   display: flex;
   justify-content: center;
