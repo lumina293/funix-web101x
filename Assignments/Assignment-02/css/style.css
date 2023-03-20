@@ -7,11 +7,36 @@
   background: #f7f7f7;
 }
 
+#nav {
+  display: flex;
+  justify-content: center;
+}
+
+#nav > * {
+  border: 1px solid #a7a7a7;
+}
+
+#nav > i {
+  width: 12%;
+  display: flex;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav > i > a {
+  color: black;
+}
+
+#nav div {
+  width: 30%;
+  text-align: center;
+}
+
 section > .container {
   width: 1170px;
   margin: auto;
   display: block;
-
   padding: 30px 50px;
 }
 
