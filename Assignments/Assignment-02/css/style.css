@@ -7,13 +7,15 @@
   background: #f7f7f7;
 }
 
-#container-target-info {
+/* The container for about section which includes career objective
+ and personal info */
+#container-about {
   display: flex;
   justify-content: flex-start;
   padding: 0px;
 }
 
-#target {
+#career-objective {
   flex: 1;
   text-align: justify;
   padding: 30px;
@@ -30,6 +32,7 @@
   list-style-type: none;
 }
 
+/* The default color for all icons is blue, unless being specified */
 i {
   color: rgb(0, 136, 255);
 }
@@ -40,7 +43,7 @@ i {
 }
 
 #nav > * {
-  height: 40px;
+  height: 40px; /* The height of child elements*/
   border: 1px solid #a7a7a7;
 }
 
@@ -68,7 +71,7 @@ i {
   bottom: 60px;
   width: 160px;
   height: 160px;
-  object-fit: cover;
+  object-fit: cover; /* To filling image that matches with the aspect ratio of its box.*/
 }
 
 section > .container {
@@ -98,7 +101,7 @@ section > .container {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+/* The container in section job-info includes three columns*/
 #job-info .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -187,7 +190,7 @@ section > .container {
   margin-right: 10px;
   width: 50px;
 }
-
+/* The grid includes three columns with the second column's weight is 1px */
 .certificate-grid {
   display: grid;
   grid-template-columns: 1fr 1px 1fr;
@@ -200,7 +203,7 @@ section > .container {
   height: 100px;
   background: #d6c08d;
 }
-
+/* To create a line which divides the rows*/
 .certificate-grid-divider-horizontal {
   grid-column: 1/-1;
   height: 1px;
@@ -268,7 +271,7 @@ section > .container {
   color: black;
   font-style: normal;
 }
-
+/* The table includes two columns and three rows*/
 .project-item-description-table {
   display: table;
   border-collapse: collapse;
