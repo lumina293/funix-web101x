@@ -17,11 +17,13 @@
   flex: 1;
   text-align: justify;
   padding: 30px;
+  background-color: rgb(246, 242, 242);
 }
 
 #personal-info {
   flex: 1;
   padding: 30px;
+  background-color: rgb(240, 239, 239);
 }
 
 .mt-40-info li {
@@ -29,7 +31,7 @@
 }
 
 i {
-  color: blue;
+  color: rgb(0, 136, 255);
 }
 
 #nav {
@@ -227,7 +229,8 @@ section > .container {
   border: 1px solid rgb(222, 216, 216);
   height: 40px;
   margin: auto;
-  padding: 10px;
+  padding: 15px;
+  justify-content: center;
 }
 
 .time-title-container {
@@ -268,4 +271,14 @@ section > .container {
 .cell {
   display: table-cell;
   padding: 10px;
+}
+
+.contact-flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-item {
+  display: flex;
 }
