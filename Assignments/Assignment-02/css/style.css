@@ -40,6 +40,7 @@ i {
 }
 
 #nav > * {
+  height: 40px;
   border: 1px solid #a7a7a7;
 }
 
@@ -56,8 +57,18 @@ i {
 }
 
 #nav div {
-  width: 30%;
+  width: 20%;
   text-align: center;
+}
+
+.image-persional-navbar {
+  position: relative;
+  border: 10px solid white;
+  border-radius: 50%;
+  bottom: 60px;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
 }
 
 section > .container {
