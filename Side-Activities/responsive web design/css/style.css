@@ -1,0 +1,140 @@
+/*  nếu 1 màu được lặp lại 5 lần trong css, ta có thể xác định một scope. :root, dấu : ở trước có nghĩa là ta có thể sử dụng nó ở bất cứ đâu */
+:root {
+  --primary-color: #047aed;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* img {
+  width: 100%;
+} */
+
+.icon {
+  width: 30px;
+}
+
+/* navbar */
+.navbar {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 70px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+}
+
+/* showcase */
+.showcase {
+  height: 400px;
+  background-color: var(--primary-color);
+  color: #fff;
+  position: relative; /* để nếu chúng ta có thể định vị tuyệt đối bất kì thứ gì bên trong showcase*/
+}
+
+.showcase h1 {
+  font-size: 40px;
+}
+
+.showcase p {
+  margin: 20px 0;
+}
+
+.showcase .grid {
+  overflow: visible;
+  grid-template-columns: 55% 45%;
+  gap: 30px;
+}
+
+.showcase-form {
+  position: relative;
+  top: 60px;
+  height: 350px;
+  width: 400px;
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"] {
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.showcase-form input:focus {
+  outline: none;
+}
+
+.showcase::before,
+.showcase::after {
+  content: "";
+  position: absolute; /*theo  sau position là các thuộc tính top, left, bottom, right*/
+  height: 70px;
+  bottom: -45px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  transform: skewY(
+    -3deg
+  ); /*thuộc tính này để tạo độ nghiêng cho phần tử, đơn vị là deg, có thể âm hoặc dương*/
+  -webkit-transform: skewY(-3deg); /*để hỗ trợ trên trình duyệt chrome và ios*/
+}
+
+/* stats */
+.stats {
+  padding-top: 90px;
+}
+
+.stats-heading {
+  width: 500px;
+}
+
+.stats .grid h3 {
+  font-size: 30px;
+}
+
+.stats .grid p {
+  font-size: 20px;
+  font-weight: bold;
+}
