@@ -1,6 +1,11 @@
 /*  nếu 1 màu được lặp lại 5 lần trong css, ta có thể xác định một scope. :root, dấu : ở trước có nghĩa là ta có thể sử dụng nó ở bất cứ đâu */
 :root {
   --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
 }
 
 * {
@@ -35,12 +40,20 @@ p {
   margin: 10px 0;
 }
 
-/* img {
-  width: 100%;
-} */
+img {
+  width: 80%;
+  height: 70%;
+}
 
 .icon {
   width: 30px;
+}
+
+code,
+pre {
+  background: #333;
+  color: #fff;
+  padding: 10px;
 }
 
 /* navbar */
@@ -86,11 +99,16 @@ p {
   gap: 30px;
 }
 
+.showcase-text {
+  animation: slideInFromLeft 1s ease-in;
+}
+
 .showcase-form {
   position: relative;
   top: 60px;
   height: 350px;
   width: 400px;
+  animation: slideInFromRight 1s ease-in;
 }
 
 .showcase-form input[type="text"],
@@ -137,4 +155,165 @@ p {
 .stats .grid p {
   font-size: 20px;
   font-weight: bold;
+}
+
+.cli .grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1px auto;
+}
+
+/* khi muốn chọn mục đầu tiên, dùng > và nhập *:first-child*/
+.cli .grid > *:first-child {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+/* cloud */
+
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
+}
+
+/* languages */
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+
+  transition: transform 0.2s ease-in; /* tạo hiệu ứng mượt hơn chậm hơn khi di chuột*/
+}
+
+.languages .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.languages .card:hover {
+  transform: translateY(
+    -15px
+  ); /*dịch chuyển phần tử dọc theo trục y, muốn di chuyển lên trên dùng giá trị âm*/
+}
+
+.icon-languages {
+  width: 50%;
+}
+
+.flex-items {
+  display: flex;
+  gap: 10px;
+}
+
+/* features */
+.features-head img,
+.docs-head img,
+.features-sub-head img {
+  width: 400px;
+  justify-self: flex-end;
+}
+
+.features-main .grid {
+  padding: 20px;
+}
+
+/* .features-main .grid > *:first-child {
+  grid-column: 1 / span 2;
+} */
+
+/* docs */
+.docs-main h3 {
+  margin: 20px 0;
+}
+
+.docs-main .grid {
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
+}
+
+.docs-main nav li {
+  font-size: 17px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.docs-main a:hover {
+  font-weight: bold;
+}
+
+/* footer */
+.footer .social a {
+  margin: 0 10px;
+}
+
+/* tablet & under */
+@media (max-width: 768px) {
+  .grid,
+  .showcase .grid,
+  .stats .grid,
+  .cli .grid,
+  .cloud .grid,
+  .features-main .grid,
+  .docs-main .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+/* animations */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* mobile */
+@media (max-width: 500px) {
+  .navbar {
+    height: 110px;
+  }
+
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    padding: 10px;
+    background-color: rgba(0, 0, 0 0.1);
+  }
+}
+
+.icon-card {
+  width: 20%;
+  margin-right: 20px;
 }
