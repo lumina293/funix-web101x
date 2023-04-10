@@ -1,0 +1,12 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+/* đối với màn hình kích thước từ trung bình trở lên (768px) thì nhóm input sẽ giảm một nửa kích cỡ */
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
