@@ -17,7 +17,7 @@
     <title>Assignment 03</title>
   </head>
   <body>
-    <div id="banner" style="padding: 0px 50px">
+    <div id="banner">
       <img src="./images/banner.jpg" alt="manbanner" />
       <div class="text-banner">
         <h1 style="font-size: 48px; font-family: sans-serif">
@@ -28,10 +28,14 @@
     </div>
 
     <section id="nav-bar">
-      <nav class="container" id="nav">
-        <i class="icon-user"><a href="#personal-info">THÔNG TIN</a></i>
-        <i class="icon-doc-text-inv"><a href="#job-info">LÝ LỊCH</a></i>
-        <div>
+      <nav class="my-container" id="nav">
+        <div class="navbar-item-container">
+          <i class="icon-user"></i><a href="#personal-info">THÔNG TIN</a>
+        </div>
+        <div class="navbar-item-container">
+          <i class="icon-doc-text-inv"></i><a href="#job-info">LÝ LỊCH</a>
+        </div>
+        <div class="navbar-avatar-container">
           <!--The personnal image is centered in the container-->
           <img
             class="image-persional-navbar"
@@ -39,13 +43,17 @@
             alt="persional-photo"
           />
         </div>
-        <i class="icon-mail-alt"><a href="#certificate">CHỨNG CHỈ</a></i>
-        <i class="icon-star-1"><a href="#project">DỰ ÁN</a></i>
+        <div class="navbar-item-container">
+          <i class="icon-mail-alt"></i><a href="#certificate">CHỨNG CHỈ</a>
+        </div>
+        <div class="navbar-item-container">
+          <i class="icon-star-1"></i><a href="#project">DỰ ÁN</a>
+        </div>
       </nav>
     </section>
 
     <section id="about" class="bg-grey">
-      <div class="container" id="container-about">
+      <div class="my-container" id="container-about">
         <div id="career-objective">
           <h1 class="section-title" style="font-family: sans-serif">
             Mục tiêu nghề nghiệp
@@ -88,7 +96,7 @@
     </section>
 
     <section id="job-info">
-      <div class="container">
+      <div class="my-container">
         <div class="grid-card">
           <div class="grid-card-header">
             <h1>Kinh nghiệm</h1>
@@ -248,7 +256,7 @@
     </section>
 
     <section id="certificate" class="bg-grey">
-      <div class="container">
+      <div class="my-container">
         <h1 class="section-title" style="margin-bottom: 10px">
           Chứng chỉ - Giải thưởng
         </h1>
@@ -305,7 +313,7 @@
     </section>
 
     <section id="project">
-      <div class="container">
+      <div class="my-container">
         <h1 class="section-title">Dự án</h1>
         <div class="project-flex">
           <div class="project-item">
@@ -400,7 +408,7 @@
     </section>
 
     <section id="footer" class="bg-grey">
-      <div class="container">
+      <div class="my-container">
         <div class="contact-flex-container">
           <a
             class="contact-item"

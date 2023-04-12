@@ -47,19 +47,19 @@ i {
   border: 1px solid #a7a7a7;
 }
 
-#nav > i {
-  width: 12%;
+.navbar-item-container {
+  width: 120px;
   display: flex;
   font-style: normal;
   align-items: center;
   justify-content: center;
 }
 
-#nav > i > a {
+.navbar-item-container a {
   color: black;
 }
 
-#nav div {
+.navbar-avatar-container {
   width: 20%;
   text-align: center;
 }
@@ -74,21 +74,22 @@ i {
   object-fit: cover; /* To filling image that matches with the aspect ratio of its box.*/
 }
 
-section > .container {
-  width: 1170px;
+/* my-container is to avoid name conflict with Bootstrap class */
+section > .my-container {
+  width: 90%;
   margin: auto;
   display: block;
-  padding: 30px 50px;
 }
 
 #banner {
   position: relative;
   text-align: center;
   color: white;
+  margin: auto;
 }
 
 #banner > img {
-  width: 100%;
+  width: 90%;
   height: 358px;
   object-position: top;
   object-fit: cover;

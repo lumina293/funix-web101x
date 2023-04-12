@@ -1,2 +1,5 @@
 @media screen and (max-width: 992px) {
+  .navbar-avatar-container {
+    display: none;
+  }
 }

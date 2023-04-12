@@ -1,2 +1,9 @@
 @media screen and (max-width: 600px) {
+  #nav {
+    display: block;
+  }
+
+  .navbar-item-container {
+    margin: 0 auto;
+  }
 }
