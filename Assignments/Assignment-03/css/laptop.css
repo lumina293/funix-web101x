@@ -3,28 +3,19 @@
   box-sizing: border-box;
 }
 
+.section-title {
+  font-family: sans-serif;
+}
+
 .bg-grey {
   background: #f7f7f7;
 }
 
-/* The container for about section which includes career objective
- and personal info */
-#container-about {
-  display: flex;
-  justify-content: flex-start;
-  padding: 0px;
-}
-
-#career-objective {
-  flex: 1;
-  text-align: justify;
-  padding: 30px;
+.bg-grey-1 {
   background-color: rgb(246, 242, 242);
 }
 
-#personal-info {
-  flex: 1;
-  padding: 30px;
+.bg-grey-2 {
   background-color: rgb(240, 239, 239);
 }
 
@@ -279,7 +270,9 @@ section > .my-container {
   table-layout: fixed;
 }
 
-.row {
+/* Name it my-row to avoid conflicts with bootstap */
+/* TODO: Replace my-row with bootstrap row */
+.my-row {
   display: table-row;
 }
 
