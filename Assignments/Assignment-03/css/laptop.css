@@ -114,14 +114,6 @@ section > .my-container {
   height: 7px;
 }
 
-/* The grid includes three columns with the second column's weight is 1px */
-.certificate-grid {
-  display: grid;
-  grid-template-columns: 1fr 1px 1fr;
-  margin-top: 30px;
-  margin-bottom: 0;
-}
-
 .certificate-grid-divider-vertical {
   width: 1px;
   height: 100px;
@@ -134,12 +126,7 @@ section > .my-container {
   background: #d6c08d;
 }
 
-.certificate-item {
-  display: flex;
-  padding-bottom: 30px;
-}
-
-.certificate-item img {
+.certificate-image {
   width: 160px;
   height: 100px;
   padding-right: 15px;
