@@ -114,16 +114,12 @@ section > .my-container {
   height: 7px;
 }
 
-.certificate-grid-divider-vertical {
+.certificate-vr {
+  position: absolute;
+  left: 50%;
   width: 1px;
-  height: 100px;
-  background: #d6c08d;
-}
-/* To create a line which divides the rows*/
-.certificate-grid-divider-horizontal {
-  grid-column: 1/-1;
-  height: 1px;
-  background: #d6c08d;
+  height: 120px;
+  background: #ffc107;
 }
 
 .certificate-image {

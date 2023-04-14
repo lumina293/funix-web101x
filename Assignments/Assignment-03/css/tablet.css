@@ -2,4 +2,8 @@
   .navbar-avatar-container {
     display: none;
   }
+
+  .certificate-vr {
+    height: 180px;
+  }
 }
