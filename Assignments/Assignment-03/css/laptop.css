@@ -110,6 +110,10 @@ section > .my-container {
   display: flex;
 }
 
+.fluency-progress {
+  height: 7px;
+}
+
 /* The grid includes three columns with the second column's weight is 1px */
 .certificate-grid {
   display: grid;
