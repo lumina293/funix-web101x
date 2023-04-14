@@ -6,4 +6,10 @@
   .certificate-vr {
     height: 180px;
   }
+
+  .job-title {
+    flex-direction: column;
+    margin-top: 15px;
+    /* to do */
+  }
 }

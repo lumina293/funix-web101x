@@ -128,38 +128,18 @@ section > .my-container {
   padding-right: 15px;
 }
 
-.project-title-container {
-  border: 1px solid rgb(222, 216, 216);
-  height: 40px;
-  margin: auto;
-  padding: 15px;
-  justify-content: center;
-}
-
-.time-title-container {
-  display: flex;
-  gap: 20px;
-  border: 1px solid rgb(222, 216, 216);
-  height: 50px;
-  margin: auto;
-  padding: 10px;
-  align-items: center;
-}
-
 .year-container {
-  position: relative;
   border: 1px solid;
   background-color: rgb(0, 132, 255);
   border-radius: 30%;
-  text-align: center;
   color: white;
-  padding: 3px;
+  padding: 2px;
 }
 
-.time-title-container i {
-  color: black;
+.not-italic {
   font-style: normal;
 }
+
 /* The table includes two columns and three rows*/
 .project-item-description-table {
   display: table;
