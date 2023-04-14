@@ -110,13 +110,6 @@ section > .my-container {
   display: flex;
 }
 
-.skill-item span {
-  background: #199cdb;
-  display: inline-block;
-  height: 2px;
-  margin-right: 10px;
-  width: 50px;
-}
 /* The grid includes three columns with the second column's weight is 1px */
 .certificate-grid {
   display: grid;
