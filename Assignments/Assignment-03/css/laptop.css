@@ -94,6 +94,14 @@ section > .my-container {
   transform: translate(-50%, -50%);
 }
 
+.ongoing {
+  background-color: rgb(0, 166, 255);
+  color: white;
+  padding: 1px;
+  font-style: italic;
+  border-radius: 10%;
+}
+
 .container-hobbies {
   display: flex;
 }
