@@ -3,56 +3,14 @@
   box-sizing: border-box;
 }
 
-.section-title {
-  font-family: sans-serif;
-}
-
-.bg-grey {
-  background: #f7f7f7;
-}
-
-.bg-grey-1 {
-  background-color: rgb(246, 242, 242);
-}
-
-.bg-grey-2 {
-  background-color: rgb(240, 239, 239);
-}
-
-.mt-40-info li {
-  list-style-type: none;
-}
-
 /* The default color for all icons is blue, unless being specified */
 i {
   color: rgb(0, 136, 255);
 }
 
-#nav {
-  display: flex;
-  justify-content: center;
-}
-
 #nav > * {
   height: 40px; /* The height of child elements*/
   border: 1px solid #a7a7a7;
-}
-
-.navbar-item-container {
-  width: 120px;
-  display: flex;
-  font-style: normal;
-  align-items: center;
-  justify-content: center;
-}
-
-.navbar-item-container a {
-  color: black;
-}
-
-.navbar-avatar-container {
-  width: 20%;
-  text-align: center;
 }
 
 .image-persional-navbar {
@@ -63,13 +21,6 @@ i {
   width: 160px;
   height: 160px;
   object-fit: cover; /* To filling image that matches with the aspect ratio of its box.*/
-}
-
-/* my-container is to avoid name conflict with Bootstrap class */
-section > .my-container {
-  width: 90%;
-  margin: auto;
-  display: block;
 }
 
 #banner {
@@ -85,13 +36,6 @@ section > .my-container {
   object-position: top;
   object-fit: cover;
   filter: brightness(50%);
-}
-
-.text-banner {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .ongoing {
@@ -118,7 +62,7 @@ section > .my-container {
   position: absolute;
   left: 50%;
   width: 1px;
-  height: 120px;
+  height: 115px;
   background: #ffc107;
 }
 
@@ -134,36 +78,4 @@ section > .my-container {
   border-radius: 30%;
   color: white;
   padding: 2px;
-}
-
-.not-italic {
-  font-style: normal;
-}
-
-/* The table includes two columns and three rows*/
-.project-item-description-table {
-  display: table;
-  border-collapse: collapse;
-  table-layout: fixed;
-}
-
-/* Name it my-row to avoid conflicts with bootstap */
-/* TODO: Replace my-row with bootstrap row */
-.my-row {
-  display: table-row;
-}
-
-.cell {
-  display: table-cell;
-  padding: 10px;
-}
-
-.contact-flex-container {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-.contact-item {
-  display: flex;
 }

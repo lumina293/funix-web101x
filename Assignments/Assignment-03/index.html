@@ -17,26 +17,28 @@
     <title>Assignment 03</title>
   </head>
   <body>
+
+    <!-- banner -->
     <div id="banner">
       <img src="./images/banner.jpg" alt="manbanner" />
-      <div class="text-banner">
-        <h1 style="font-size: 48px; font-family: sans-serif">
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <h1>
           Lương Thị Minh Ngọc
         </h1>
-        <span style="font-size: 24px">Full Stack Developer</span>
+        <span class="fs-4">Full Stack Developer</span>
       </div>
     </div>
 
     <!-- navbar -->
     <section id="nav-bar">
-      <nav class="container" id="nav">
-        <div class="navbar-item-container">
-          <i class="icon-user"></i><a href="#personal-info">THÔNG TIN</a>
+      <nav class="container d-md-flex d-block justify-content-center mt-4" id="nav">
+        <div class="d-flex justify-content-center align-items-center p-3">
+          <i class="icon-user"></i><a href="#personal-info" class="text-dark text-decoration-none">THÔNG TIN</a>
         </div>
-        <div class="navbar-item-container">
-          <i class="icon-doc-text-inv"></i><a href="#job-info">LÝ LỊCH</a>
+        <div class="d-flex justify-content-center align-items-center p-3">
+          <i class="icon-doc-text-inv"></i><a href="#job-info" class="text-dark text-decoration-none">LÝ LỊCH</a>
         </div>
-        <div class="navbar-avatar-container">
+        <div class="d-lg-flex d-none justify-content-center p-1">
           <!--The personnal image is centered in the container-->
           <img
             class="image-persional-navbar"
@@ -44,22 +46,21 @@
             alt="persional-photo"
           />
         </div>
-        <div class="navbar-item-container">
-          <i class="icon-mail-alt"></i><a href="#certificate">CHỨNG CHỈ</a>
+        <div class="d-flex justify-content-center align-items-center p-3">
+          <i class="icon-mail-alt"></i><a href="#certificate" class="text-dark text-decoration-none">CHỨNG CHỈ</a>
         </div>
-        <div class="navbar-item-container">
-          <i class="icon-star-1"></i><a href="#project">DỰ ÁN</a>
+        <div class="d-flex justify-content-center align-items-center p-3">
+          <i class="icon-star-1"></i><a href="#project" class="text-dark text-decoration-none">DỰ ÁN</a>
         </div>
       </nav>
     </section>
 
     <!-- personal info -->
-    <section id="personal-info" class="mt-5 container bg-grey">
+    <section id="personal-info" class="mt-4 container bg-light">
       <div class="row">
-        <div class="pt-3 bg-grey-1 col-md-6">
-          <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
-          <br />
-          <p>
+        <div class="p-5 bg-light bg-gradient col-md-6">
+          <h2>Mục tiêu nghề nghiệp</h2>
+          <p class="lh-lg">
             Là một sinh viên đang tham gia chương trình chứng chỉ Doanh Nghiệp
             của FUNiX, Em mong muốn mình sẽ được làm việc với vị trí Fullstack
             Developer, có thể vận dụng những kiến thức đã được trau dồi và không
@@ -67,27 +68,47 @@
             công việc được giao.
           </p>
         </div>
-        <div class="pt-3 bg-grey-2 col-md-6">
-          <h1 class="section-title">Thông tin cá nhân</h1>
-
+        <div class="p-5 bg-light col-md-6">
+          <h2>Thông tin cá nhân</h2>
+        <div class="table-responsive">
+          <table class="table caption-top table-borderless">
+            <tbody>
+              <tr>
+                <td>Giới tính: </td>
+                <td>Nữ</td>
+              </tr>
+              <tr>
+                <td >Ngày sinh: </td>
+                <td>29/03/1996</td>
+              </tr>
+              <tr>
+                <td >Điện thoại: </td>
+                <td>(+84) 912398xxx</td>
+              </tr>
+              <tr>
+                <td>Email: </td>
+                <td>ngocltmfx21256@funix.edu.vn</td>
+              </tr>
+              <tr>
+                <td>Địa chỉ: </td>
+                <td>Hà Nội, Việt Nam</td>
+              </tr>
+              <tr>
+                <td>Website: </td>
+                <td>https://abc.tech</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
           <br />
-          <ul class="p-0 mt-40-info">
-            <li><span>Giới tính</span> : Nữ</li>
-            <li><span>Ngày sinh</span> : 29/03/1996</li>
-            <li><span>Điện thoại</span> : (+84) 912398xxx</li>
-            <li><span>Email</span> : ngocltmfx21256@funix.edu.vn</li>
-            <li><span>Địa chỉ</span> : Hà Nội, Việt Nam</li>
-            <li><span>Website</span> : https://abc.tech</li>
-          </ul>
-          <br />
-          <div class="p-0 icon-media">
+          <div class="mb-0">
             <i class="icon-twitter"></i>
             <i class="icon-facebook"></i>
             <i class="icon-gplus"></i>
             <i class="icon-linkedin"></i>
           </div>
         </div>
-      </div>
+       </div>
     </section>
 
     <section id="job-info" class="container">
@@ -475,31 +496,37 @@
       </div>
     </section>
 
-
+<!-- footer -->
     <section id="footer" class="bg-grey">
-      <div class="my-container">
-        <div class="contact-flex-container">
-          <a
-            class="contact-item"
-            target="_blank"
-            href="https://www.facebook.com/ngoc.minh.338658"
-          >
-            <i class="icon-facebook-circled"></i>Facebook
-          </a>
-          <a
-            class="contact-item"
-            target="_blank"
-            href="https://www.linkedin.com/in/mina-luong"
-          >
-            <i class="icon-linkedin-circled"></i>Linkedin
-          </a>
-          <a
-            class="contact-item"
-            target="_blank"
-            href="https://github.com/lumina293"
-          >
-            <i class="icon-github-circled"></i>Github
-          </a>
+      <div class="container">
+        <div class="d-flex justify-content-center p-3">
+          <div class="mx-3">
+              <a
+               class="contact-item"
+               target="_blank"
+               href="https://www.facebook.com/ngoc.minh.338658"
+               >
+              <i class="icon-facebook-circled"></i>Facebook
+              </a>
+          </div>
+          <div class="mx-3">
+              <a
+              class="contact-item"
+              target="_blank"
+              href="https://www.linkedin.com/in/mina-luong"
+              >
+              <i class="icon-linkedin-circled"></i>Linkedin
+              </a>
+          </div>
+          <div class="mx-3">
+              <a
+              class="contact-item"
+              target="_blank"
+              href="https://github.com/lumina293"
+              >
+              <i class="icon-github-circled"></i>Github
+              </a>
+          </div>
         </div>
       </div>
     </section>
