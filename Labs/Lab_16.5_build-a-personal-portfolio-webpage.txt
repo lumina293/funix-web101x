@@ -1,0 +1,47 @@
+** start of undefined **
+
+_
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab16.5personal webpage</title>
+  </head>
+  <style>
+    #navbar {
+      position: fixed;
+      top: 0;
+    }
+
+    @media (max-width: 450px) {
+      .navbar {
+        font-size: smaller;
+      }
+    }
+  </style>
+  <body>
+    <nav id="navbar">
+      <a href="#"></a>
+    </nav>
+    <div id="welcome-section">
+      <h1>Lorem ipsum dolor sit.</h1>
+    </div>
+    <section id="projects">
+      Projects
+      <a class="project-tile">Lorem, ipsum dolor.</a>
+      <a id="profile-link" href="#" target="_blank"></a>
+    </section>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+

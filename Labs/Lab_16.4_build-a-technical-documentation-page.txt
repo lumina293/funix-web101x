@@ -1,0 +1,147 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab16.4 Document</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    #main-doc {
+      display: grid;
+      grid-template-columns: 30% 70%;
+      gap: 50px;
+    }
+
+    #navbar {
+      text-align: left;
+      padding-left: 50px;
+    }
+
+    .nav-link {
+      text-decoration: none;
+    }
+
+    code {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      background-color: rgba(163, 161, 161, 0.752);
+      width: 50%;
+      text-align: center;
+      padding: 10px;
+    }
+
+    @media (max-width: 450px) {
+      .navbar {
+        font-size: smaller;
+      }
+    }
+  </style>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header>JS DOCUMENTATION</header>
+        <a class="nav-link" href="#introduction">Introduction</a><br />
+        <a class="nav-link" href="#hello_world">Hello world</a><br />
+        <a class="nav-link" href="#html">HTML</a><br />
+        <a class="nav-link" href="#css">CSS</a><br />
+        <a class="nav-link" href="#javascript">JAVASCRIPT</a>
+      </nav>
+
+      <section class="main-section" id="introduction">
+        <header>Introduction</header>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos, iusto.
+          </li>
+        </ul>
+        <code>
+          const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";
+        </code>
+      </section>
+      <br />
+
+      <section class="main-section" id="hello_world">
+        <header>Hello world</header>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos, iusto.
+          </li>
+        </ul>
+        <code>
+          const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";
+        </code>
+      </section>
+      <br />
+
+      <section class="main-section" id="html">
+        <header>HTML</header>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos, iusto.
+          </li>
+        </ul>
+        <code>
+          const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";
+        </code>
+      </section>
+      <br />
+
+      <section class="main-section" id="css">
+        <header>CSS</header>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos, iusto.
+          </li>
+        </ul>
+        <code>
+          const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";
+        </code>
+      </section>
+      <br />
+
+      <section class="main-section" id="javascript">
+        <header>JAVASCRIPT</header>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos, iusto.
+          </li>
+        </ul>
+        <code>
+          const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";
+        </code>
+      </section>
+      <br />
+    </main>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
